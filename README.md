@@ -2,26 +2,30 @@
 
 ## 📊 Project Overview
 
-An **Excel-only Business Analytics project** built using Superstore transactional data from **2011 to 2014**.
+An **Excel-only Business Analytics project** built using Superstore transactional sales data covering **2011–2014**.
 
-The project transforms transactional sales data into a structured analytical workbook and an interactive management dashboard to evaluate **sales performance, profitability, customer behavior, product performance, regional trends, discount impact, shipping performance, and business growth opportunities**.
+The project transforms raw transactional data into a structured Excel analytics workbook and an interactive dashboard to evaluate **sales performance, profitability, customer performance, product performance, regional trends, market performance, discount impact, shipping performance, and seasonal trends**.
 
-The complete analysis is developed using **Microsoft Excel**, without SQL, Python, Power BI, or other external analytics tools.
+The complete project was developed using **Microsoft Excel only**, with no SQL, Python, Power BI, or other external analytics tools.
 
 ---
 
 ## 🎯 Business Objective
 
-The primary objective of this project is to analyze Superstore sales data and generate actionable business insights by identifying:
+The objective of this project is to analyze Superstore sales data and convert transactional information into actionable business insights.
 
-- Sales and profit trends over time
-- High-performing and low-performing products
-- Customer and segment performance
+The analysis focuses on:
+
+- Sales and profit trends
+- Product performance
+- Customer performance
+- Category and sub-category performance
 - Regional and market profitability
 - Discount impact on profitability
 - Shipping and delivery performance
 - Seasonal sales patterns
-- Business growth opportunities and profitability risks
+- Business growth opportunities
+- Profitability risks and loss-making areas
 
 ---
 
@@ -39,6 +43,9 @@ The primary objective of this project is to analyze Superstore sales data and ge
 | Regions | 13 |
 | Categories | 3 |
 | Sub-Categories | 17 |
+| Ship Modes | 4 |
+| Customer Segments | 3 |
+| Order Priorities | 4 |
 | Analysis Period | 2011–2014 |
 | Total Sales | $12.64M |
 | Total Profit | $1.47M |
@@ -48,10 +55,12 @@ The primary objective of this project is to analyze Superstore sales data and ge
 
 ## 🛠️ Tools & Excel Techniques
 
-### Tools
+### Tool
+
 - Microsoft Excel
 
 ### Excel Techniques Used
+
 - Excel Tables
 - Structured References
 - SUMIFS
@@ -69,6 +78,9 @@ The primary objective of this project is to analyze Superstore sales data and ge
 - KPI Analysis
 - Trend Analysis
 - Profitability Analysis
+- Product Analysis
+- Customer Analysis
+- Regional Analysis
 - What-If Analysis
 - Goal Seek
 - Interactive Dashboard
@@ -81,7 +93,7 @@ The primary objective of this project is to analyze Superstore sales data and ge
 
 - Yearly sales performance
 - Monthly sales trends
-- Quarterly performance
+- Quarterly sales performance
 - Sales by category
 - Sales by market
 - Sales by customer segment
@@ -92,15 +104,17 @@ The primary objective of this project is to analyze Superstore sales data and ge
 - Profit margin
 - Profit by category
 - Profit by region
+- Loss-making line items
 - Loss-making products
 - Discount vs. profitability analysis
 
 ### 📦 Product Analysis
 
 - Top 10 products by sales
-- Top 10 products by profit
-- Bottom 10 products by profit
-- Product-level profitability comparison
+- Product-level profit analysis
+- Profit margin by product
+- Top-performing products
+- Loss-making products
 
 ### 👥 Customer Analysis
 
@@ -113,13 +127,14 @@ The primary objective of this project is to analyze Superstore sales data and ge
 
 - Regional sales
 - Regional profit
-- Regional profit margins
-- Market performance
+- Regional profit margin
+- Market-level performance
+- Geographic profitability comparison
 
 ### 🚚 Operational Analysis
 
 - Shipping mode performance
-- Delivery time analysis
+- Delivery days
 - Order priority
 - Shipping performance
 
@@ -127,14 +142,16 @@ The primary objective of this project is to analyze Superstore sales data and ge
 
 - Sales growth scenarios
 - Profit margin scenarios
-- Incremental profit analysis
-- Goal Seek for target profitability
+- Scenario sales
+- Scenario profit
+- Incremental profit
+- Goal Seek for target profit
 
 ---
 
-# 📈 Interactive Excel Dashboard
+# 📊 Interactive Excel Dashboard
 
-The final dashboard provides a management-focused view of the business using:
+The final dashboard provides a management-focused view of the business through:
 
 - KPI cards
 - Year slicer
@@ -142,40 +159,40 @@ The final dashboard provides a management-focused view of the business using:
 - Segment slicer
 - Region slicer
 - Order Date timeline
-- Sales trend analysis
+- Sales trend by year
 - Monthly sales trend
 - Category sales and profit comparison
-- Regional profit analysis
+- Profit by region
 - Customer segment analysis
-- Market performance
+- Market analysis
 - Discount profitability analysis
-- Top 10 product analysis
+- Top 10 products by sales
 - Key business insights
 
-The dashboard is designed to allow users to **filter the analysis interactively** and quickly identify major performance trends and business risks.
+The dashboard allows users to interactively filter the analysis using Excel **Slicers and Timeline** and quickly evaluate changes in sales and profitability across different business dimensions.
 
 ---
 
-## 🔍 Key Business Insights
+# 🔍 Key Business Insights
 
-- **Sales grew strongly from $2.26M in 2011 to $4.30M in 2014**, showing consistent business growth over the analysis period.
+- **Sales increased from approximately $2.26M in 2011 to $4.30M in 2014**, indicating strong business growth during the analysis period.
 
-- **Technology is the strongest category in terms of both sales and profit**, making it the leading contributor to overall business performance.
+- **Technology is the strongest major category in terms of both sales and profit**, making it an important contributor to overall business performance.
 
 - **Furniture has the weakest profit margin at approximately 7%**, despite generating more than $4.1M in sales.
 
-- **Tables is a major loss-making sub-category despite generating significant sales**, indicating the need for deeper product-level investigation.
+- **Tables is a major loss-making sub-category**, despite generating significant revenue, making it an important area for further investigation.
 
-- **Higher discount levels are associated with negative profitability**, highlighting discount management as an important profitability lever.
+- **Higher discount levels are associated with weaker or negative profitability**, highlighting discount management as an important profitability lever.
 
-- **Q4 is the strongest sales period**, indicating clear seasonality that can support inventory and promotional planning.
+- **Q4 is the strongest sales quarter**, indicating clear seasonal demand patterns that can support planning and promotional decisions.
 
 ---
 
-## 💡 Business Recommendations
+# 💡 Business Recommendations
 
 - Review high-discount transactions where profitability becomes negative.
-- Investigate loss-making products, particularly within the Tables sub-category.
+- Investigate loss-making products and the Tables sub-category.
 - Evaluate pricing, discounting, shipping costs, and product mix for weak-margin products.
 - Prioritize high-margin products and profitable customer segments.
 - Monitor regional profitability separately from revenue performance.
@@ -185,59 +202,59 @@ The dashboard is designed to allow users to **filter the analysis interactively*
 
 # 📷 Dashboard Preview
 
-![Superstore Dashboard](images/dashboard.png)
+![Superstore Sales & Profitability Dashboard](dashboard.png.png)
 
 ---
 
 # 📚 Workbook Preview
 
-The workbook is organized into multiple analytical worksheets, each serving a specific stage of the analysis.
+The workbook contains multiple analytical worksheets covering the complete Excel-based analysis process.
 
 ## 1. Executive Dashboard
 
-The main interactive dashboard provides a consolidated view of sales, profitability, customer performance, regional performance, discount impact, product performance, and business trends.
+The main dashboard provides an interactive management view of sales, profitability, customer performance, regional performance, discount impact, product performance, and business trends.
 
-![Superstore Dashboard](images/dashboard.png)
+![Executive Dashboard](dashboard.png.png)
 
 ---
 
 ## 2. Data Preparation
 
-The **Data** worksheet contains the transactional dataset along with calculated analytical fields used throughout the project.
+The **Data** worksheet contains the transactional dataset and calculated analytical fields used throughout the project.
 
-![Data Worksheet](images/data.png)
+![Data Worksheet](data.png.png)
 
 ---
 
 ## 3. KPI Calculations
 
-The **KPI_Calculations** worksheet contains core business metrics including total sales, total profit, profit margin, unique orders, customers, average order value, delivery performance, and loss-making line items.
+The **KPI_Calculations** worksheet contains the project's core business metrics, including total sales, total profit, profit margin, unique orders, customers, average order value, delivery performance, and loss-making line items.
 
-![KPI Calculations](images/kpi-calculations.png)
+![KPI Calculations](kpi-calculations.png.png)
 
 ---
 
 ## 4. Pivot Table Analysis
 
-The **Pivot_Tables** worksheet contains summary analyses covering yearly, monthly, quarterly, category, sub-category, regional, market, customer segment, shipping, and discount performance.
+The **Pivot_Tables** worksheet contains summarized business analysis across year, month, quarter, category, sub-category, region, market, segment, shipping mode, customers, products, and discount bands.
 
-![Pivot Tables](images/pivot-tables.png)
+![Pivot Table Analysis](pivot-tables.png.png)
 
 ---
 
 ## 5. Product Analysis
 
-The **Product_Analysis** worksheet evaluates product performance through sales, profit, profit margin, top-performing products, and loss-making products.
+The **Product_Analysis** worksheet evaluates product performance using sales, profit, and profit margin, including top-performing and loss-making products.
 
-![Product Analysis](images/product-analysis.png)
+![Product Analysis](product-analysis.png.png)
 
 ---
 
 ## 6. Customer Analysis
 
-The **Customer_Analysis** worksheet compares customers by sales, profit, and order activity to identify high-value customers and profitability differences.
+The **Customer_Analysis** worksheet compares customers by sales, profit, and order activity to identify high-value customers and differences in customer profitability.
 
-![Customer Analysis](images/customer-analysis.png)
+![Customer Analysis](customer-analysis.png.png)
 
 ---
 
@@ -245,60 +262,70 @@ The **Customer_Analysis** worksheet compares customers by sales, profit, and ord
 
 The **Regional_Analysis** worksheet compares regional sales, profit, and profit margins to identify geographical performance differences.
 
-![Regional Analysis](images/regional-analysis.png)
+![Regional Analysis](regional-analysis.png.png)
 
 ---
 
 ## 8. Trend & Seasonality Analysis
 
-The **Trend_Analysis** worksheet evaluates yearly growth, monthly sales trends, and seasonal sales patterns across the 2011–2014 analysis period.
+The **Trend_Analysis** worksheet evaluates yearly growth, monthly sales patterns, and seasonal performance across the 2011–2014 period.
 
-![Trend Analysis](images/trend-analysis.png)
+![Trend & Seasonality Analysis](trend-analysis.png.png)
 
 ---
 
 ## 9. What-If Analysis
 
-The **What_If_Analysis** worksheet evaluates how different sales growth and profit margin assumptions can affect scenario revenue, profit, and incremental profit.
+The **What_If_Analysis** worksheet evaluates how different sales growth and profit margin assumptions affect scenario sales, scenario profit, and incremental profit.
 
-It also demonstrates Excel's **Goal Seek** capability for target-profit analysis.
+The worksheet also demonstrates **Excel Goal Seek** for target-profit analysis.
 
-![What-If Analysis](images/what-if-analysis.png)
+![What-If Analysis](what-if-analysis.png.png)
 
 ---
 
 ## 10. Project Report
 
-The **Report** worksheet summarizes the dataset, major business findings, analytical observations, and recommendations derived from the project.
+The **Report** worksheet summarizes the dataset, major findings, business insights, and recommendations derived from the analysis.
 
-![Project Report](images/report.png)
+![Project Report](report.png.png)
 
 ---
 
 # 📂 Project Files
 
-- [`Superstore_Sales_Profitability_Dashboard.xlsx`](./Superstore_Sales_Profitability_Dashboard.xlsx) — Complete Excel analytics workbook
-- [`README.md`](./README.md) — Project documentation
-- `images/` — Dashboard and worksheet preview screenshots
+### Excel Workbook
+
+[Download the Complete Excel Workbook](./SuperStoreOrders%20-%20SuperStoreOrders.xlsx)
+
+### CSV Dataset
+
+[View / Download the CSV Dataset](./SuperStoreOrders%20-%20SuperStoreOrders.csv)
+
+### Project Documentation
+
+[View README](./README.md)
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
-superstore-sales-profitability-excel/
+Superstore_Sales_Profitability_Excel_Dashboard/
 │
 ├── README.md
-├── Superstore_Sales_Profitability_Dashboard.xlsx
 │
-└── images/
-    ├── dashboard.png
-    ├── data.png
-    ├── kpi-calculations.png
-    ├── pivot-tables.png
-    ├── product-analysis.png
-    ├── customer-analysis.png
-    ├── regional-analysis.png
-    ├── trend-analysis.png
-    ├── what-if-analysis.png
-    └── report.png
+├── SuperStoreOrders - SuperStoreOrders.csv
+├── SuperStoreOrders - SuperStoreOrders.xlsx
+│
+├── dashboard.png.png
+├── data.png.png
+├── data2.png.png
+├── kpi-calculations.png.png
+├── pivot-tables.png.png
+├── product-analysis.png.png
+├── customer-analysis.png.png
+├── regional-analysis.png.png
+├── trend-analysis.png.png
+├── what-if-analysis.png.png
+└── report.png.png
